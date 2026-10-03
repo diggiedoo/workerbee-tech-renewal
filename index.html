@@ -1,0 +1,283 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="WorkerBee makes technology renewal easy. Sell, repair, recycle, or donate your technology with one trusted local team."
+    />
+    <meta name="theme-color" content="#f8f7f3" />
+    <title>WorkerBee — Give Your Tech A Second Life</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#home" aria-label="WorkerBee home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 40 40" fill="none">
+            <path d="M20 5.5c-7.8 0-14.1 6.3-14.1 14.1S12.2 33.7 20 33.7s14.1-6.3 14.1-14.1S27.8 5.5 20 5.5Z" fill="currentColor" />
+            <path d="M12 14.2h16M10.8 19.7h18.4M12.1 25.2h15.8" stroke="#fff" stroke-width="3.4" stroke-linecap="round" />
+            <path d="M19.8 4.4V1.8m8.7 5.1 2-2M11 7 9 4.9" stroke="currentColor" stroke-width="2.3" stroke-linecap="round" />
+          </svg>
+        </span>
+        <span>workerbee<span class="brand-dot">.</span></span>
+      </a>
+
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-nav" aria-label="Open navigation">
+        <span></span><span></span>
+      </button>
+
+      <nav class="main-nav" id="main-nav" aria-label="Main navigation">
+        <a href="#services">What we do</a>
+        <a href="#how-it-works">How it works</a>
+        <a href="#marketplace">Marketplace</a>
+        <a href="#business">For business</a>
+      </nav>
+
+      <button class="button button-dark header-cta" type="button" data-open-request data-request-type="estimate">
+        Get an estimate <span aria-hidden="true">↗</span>
+      </button>
+    </header>
+
+    <main>
+      <section class="hero" id="home">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="eyebrow-dot"></span> Utah's local tech renewal team</p>
+          <h1>Give your tech<br />a <span>second life.</span></h1>
+          <p class="hero-lede">Sell it. Repair it. Recycle it. Donate it.<br />WorkerBee handles the hard part.</p>
+          <p class="hero-detail">No parking lot meetups. No endless messages. No guesswork. Just one trusted local team to take it from here.</p>
+          <div class="hero-actions">
+            <button class="button button-yellow" type="button" data-open-request data-request-type="estimate">Get an estimate <span aria-hidden="true">↗</span></button>
+            <button class="button button-outline" type="button" data-open-request data-request-type="pickup">Schedule a pickup</button>
+          </div>
+          <div class="hero-footnote">
+            <span class="avatar-stack" aria-hidden="true"><i>W</i><i>B</i><i>+</i></span>
+            <span>Good tech deserves another go.</span>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <img
+            class="hero-image"
+            src="https://images.unsplash.com/photo-1587202372775-e229f172b9d7?auto=format&fit=crop&w=1600&q=85"
+            alt="A carefully built desktop computer and technology on a warm, tidy workbench"
+            fetchpriority="high"
+          />
+          <div class="hero-image-shade"></div>
+          <div class="image-note">
+            <span class="note-icon" aria-hidden="true">✳</span>
+            <span><strong>Tech, with a next chapter.</strong><small>Thoughtful care from start to finish.</small></span>
+          </div>
+          <div class="hero-side-label">REPAIR · RESALE · RECOVERY</div>
+        </div>
+        <div class="hero-scroll" aria-hidden="true"><span></span> SCROLL TO EXPLORE</div>
+      </section>
+
+      <section class="intro-strip" aria-label="Our promise">
+        <span>LOCAL PEOPLE</span><span class="strip-star">✳</span>
+        <span>THOUGHTFUL TECH CARE</span><span class="strip-star">✳</span>
+        <span>LESS WASTE, MORE GOOD</span><span class="strip-star">✳</span>
+        <span>NO MARKETPLACE HEADACHES</span>
+      </section>
+
+      <section class="section services-section" id="services">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">A better way to move tech forward</p>
+            <h2>One team. <span>Four good paths.</span></h2>
+          </div>
+          <p class="section-aside">That old laptop isn't the end of the story. We'll help find what comes next.</p>
+        </div>
+        <div class="service-grid">
+          <article class="service-card service-sell">
+            <div class="card-topline"><span class="service-number">01 / SELL</span><span class="service-icon" aria-hidden="true">↗</span></div>
+            <div class="service-illustration sell-illustration" aria-hidden="true">
+              <div class="sell-device"><div class="device-screen"></div><div class="device-base"></div></div>
+              <div class="coin coin-one">$</div><div class="coin coin-two">✳</div>
+            </div>
+            <h3>Sell it.</h3>
+            <p>Turn unused technology into cash. We test, clean, photograph, list, and handle the buyers.</p>
+            <div class="split-callout"><strong>70 / 30</strong><span>You keep 70%.<br />We keep 30% of the sale.</span></div>
+            <button class="text-link" type="button" data-open-request data-request-type="sell">Sell with WorkerBee <span aria-hidden="true">↗</span></button>
+          </article>
+
+          <article class="service-card service-repair">
+            <div class="card-topline"><span class="service-number">02 / REPAIR</span><span class="service-icon" aria-hidden="true">⌁</span></div>
+            <div class="service-illustration repair-illustration" aria-hidden="true">
+              <div class="repair-monitor"><div></div><i></i></div>
+              <div class="repair-spark">✳</div><div class="repair-tool">⌁</div>
+            </div>
+            <h3>Repair it.</h3>
+            <p>PC won't boot? Wi-Fi acting weird? We'll find the problem and talk through the fix before we start.</p>
+            <ul class="mini-list"><li>Clear diagnosis</li><li>Upgrades &amp; fixes</li><li>No big-chain price tag</li></ul>
+            <button class="text-link" type="button" data-open-request data-request-type="repair">Tell us what's wrong <span aria-hidden="true">↗</span></button>
+          </article>
+
+          <article class="service-card service-recycle">
+            <div class="card-topline"><span class="service-number">03 / RECYCLE</span><span class="service-icon" aria-hidden="true">↻</span></div>
+            <div class="service-illustration recycle-illustration" aria-hidden="true">
+              <div class="recycle-circle">↻</div><div class="recycle-leaf">✳</div><span class="recycle-orbit orbit-one"></span><span class="recycle-orbit orbit-two"></span>
+            </div>
+            <h3>Recycle it.</h3>
+            <p>When it's truly at end of life, we recover what we can and route the rest to responsible recycling.</p>
+            <ul class="mini-list"><li>Responsible handling</li><li>Reusable parts recovered</li><li>Destruction records available</li></ul>
+            <button class="text-link" type="button" data-open-request data-request-type="recycle">Plan a responsible drop-off <span aria-hidden="true">↗</span></button>
+          </article>
+
+          <article class="service-card service-donate">
+            <div class="card-topline"><span class="service-number">04 / DONATE</span><span class="service-icon" aria-hidden="true">♡</span></div>
+            <div class="service-illustration donate-illustration" aria-hidden="true">
+              <div class="donate-box"><span>GOOD<br />THINGS<br />INSIDE</span><i>♡</i></div>
+              <div class="donate-star star-one">✳</div><div class="donate-star star-two">✳</div>
+            </div>
+            <h3>Donate it.</h3>
+            <p>Working tech can do a lot of good. We'll help find a useful next home for equipment that still has life.</p>
+            <ul class="mini-list"><li>Useful tech, passed along</li><li>Thoughtful second chances</li><li>Nothing forgotten</li></ul>
+            <button class="text-link" type="button" data-open-request data-request-type="donate">Explore donation <span aria-hidden="true">↗</span></button>
+          </article>
+        </div>
+      </section>
+
+      <section class="trust-band">
+        <div class="trust-copy">
+          <p class="eyebrow eyebrow-light">Trust is built into the process</p>
+          <h2>Nothing gets<br /><span>lost in the shuffle.</span></h2>
+          <p>From intake number to final handoff, your equipment has a clear path—and you know where it stands.</p>
+        </div>
+        <div class="trust-stats">
+          <div class="trust-stat"><strong>4</strong><span>thoughtful paths<br />for every item</span></div>
+          <div class="trust-stat"><strong>1:1</strong><span>updates from a<br />real local team</span></div>
+          <div class="trust-stat"><strong>100%</strong><span>clear about what<br />happens next</span></div>
+          <div class="trust-rating"><div aria-label="Five out of five stars">★★★★★</div><span>Care you can feel good about</span></div>
+        </div>
+        <span class="trust-sunburst" aria-hidden="true">✳</span>
+      </section>
+
+      <section class="section process-section" id="how-it-works">
+        <div class="section-heading process-heading">
+          <div><p class="eyebrow">Simple from the very first hello</p><h2>We take it <span>from here.</span></h2></div>
+          <p class="section-aside">No complicated process. No wondering what's happening. Just a clear next step.</p>
+        </div>
+        <div class="process-track">
+          <article class="process-step"><span class="step-number">01</span><span class="step-icon" aria-hidden="true">⌕</span><h3>Tell us about it</h3><p>Share a few details and photos. We'll take a first look and ask if we need anything.</p></article>
+          <article class="process-step"><span class="step-number">02</span><span class="step-icon" aria-hidden="true">⌖</span><h3>Bring it or book a pickup</h3><p>Choose the handoff that works for you. We'll inspect the equipment together.</p></article>
+          <article class="process-step"><span class="step-number">03</span><span class="step-icon" aria-hidden="true">✳</span><h3>Choose its next chapter</h3><p>Sell, repair, recycle, or donate. We'll recommend a path, and you decide.</p></article>
+          <article class="process-step"><span class="step-number">04</span><span class="step-icon" aria-hidden="true">↗</span><h3>Get clear updates</h3><p>Know what we're doing and what comes next—without chasing us down.</p></article>
+          <article class="process-step"><span class="step-number">05</span><span class="step-icon" aria-hidden="true">♡</span><h3>Feel good about it</h3><p>Get paid when your item sells, pick up a repair, or know it found a responsible next step.</p></article>
+        </div>
+      </section>
+
+      <section class="marketplace-section" id="marketplace">
+        <div class="section marketplace-inner">
+          <div class="marketplace-copy">
+            <p class="eyebrow">Good gear deserves good people</p>
+            <h2>Meet the tech<br />with a <span>next life.</span></h2>
+            <p>Carefully checked tech, ready for a new home. Browse the kind of gear you might find in the WorkerBee marketplace.</p>
+            <a class="button button-dark" href="#contact">Ask about available gear <span aria-hidden="true">↗</span></a>
+            <p class="marketplace-note">Sample listings shown for preview. Ask us what's available.</p>
+          </div>
+          <div class="marketplace-grid">
+            <article class="gear-card gear-card-large">
+              <div class="gear-photo gear-photo-gpu"><img src="https://images.unsplash.com/photo-1591488320449-011701bb6704?auto=format&fit=crop&w=900&q=80" alt="Graphics card on a work surface" loading="lazy" /><span class="gear-tag">TESTED &amp; READY</span><button type="button" class="heart-button" aria-label="Save graphics card" aria-pressed="false">♡</button></div>
+              <div class="gear-info"><div><h3>Gaming graphics card</h3><p>Inspected · Cleaned · Ready to go</p></div><span class="gear-price">Ask us</span></div>
+            </article>
+            <article class="gear-card gear-card-small">
+              <div class="gear-photo gear-photo-laptop"><img src="https://images.unsplash.com/photo-1496181133206-80ce9b88a853?auto=format&fit=crop&w=800&q=80" alt="Laptop computer on a desk" loading="lazy" /><span class="gear-tag">RENEWED</span><button type="button" class="heart-button" aria-label="Save laptop" aria-pressed="false">♡</button></div>
+              <div class="gear-info"><div><h3>Business laptop</h3><p>Clean install · Checked over</p></div><span class="gear-price">Ask us</span></div>
+            </article>
+            <div class="marketplace-stamp"><span>GOOD<br />TECH<br /><i>✳</i><br />GOES ON</span></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="pickup-section">
+        <div class="pickup-visual">
+          <img src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=1200&q=85" alt="Technician carefully working on electronic equipment" loading="lazy" />
+          <div class="pickup-sticker"><span>WE'LL<br />COME TO<br /><b>YOU!</b></span></div>
+        </div>
+        <div class="pickup-copy">
+          <p class="eyebrow">A little less hauling, a lot more easy</p>
+          <h2>Can't bring it<br />to us? <span>We can come to you.</span></h2>
+          <p>One computer or a whole office worth of equipment—tell us what you have and where it needs to go. We'll figure out the right handoff together.</p>
+          <ul class="check-list"><li>Home, garage, office, or storage</li><li>Single items and business pickups</li><li>Pickup options confirmed before you book</li></ul>
+          <button class="button button-dark" type="button" data-open-request data-request-type="pickup">Ask about a pickup <span aria-hidden="true">↗</span></button>
+        </div>
+      </section>
+
+      <section class="business-section" id="business">
+        <div class="business-orbit" aria-hidden="true"><span></span><i>✳</i></div>
+        <div class="business-content">
+          <p class="eyebrow eyebrow-light">For offices, schools, and the people who keep them running</p>
+          <h2>Technology asset<br /><span>recovery, minus the runaround.</span></h2>
+          <p>From one server room to a full equipment refresh, get inventory, pickup, secure handling, and a clear record of where your technology goes.</p>
+          <div class="business-services"><span>Inventory &amp; pickup</span><span>Data destruction records</span><span>Buyback estimates</span><span>Recycling &amp; donation reports</span></div>
+          <button class="button button-yellow" type="button" data-open-request data-request-type="business">Talk about a business pickup <span aria-hidden="true">↗</span></button>
+        </div>
+        <div class="business-card">
+          <span class="doc-label">WORKERBEE · ASSET CARE</span>
+          <div class="doc-icon" aria-hidden="true">✓</div>
+          <strong>A clearer picture<br />of what's next.</strong>
+          <div class="doc-lines"><i></i><i></i><i></i></div>
+          <span class="doc-foot">DOCUMENTED. HANDLED. DONE.</span>
+        </div>
+      </section>
+
+      <section class="renewal-section">
+        <div class="renewal-heading"><p class="eyebrow">This is technology renewal</p><h2>Every item has a story.<br /><span>Let's make it a good one.</span></h2></div>
+        <div class="renewal-paths"><div><span>01</span><strong>Repaired</strong></div><i>→</i><div><span>02</span><strong>Resold</strong></div><i>→</i><div><span>03</span><strong>Donated</strong></div><i>→</i><div><span>04</span><strong>Recycled</strong></div></div>
+        <p>Nothing is wasted. Nothing is forgotten. Everything gets a thoughtful next step.</p>
+      </section>
+
+      <section class="contact-section" id="contact">
+        <div><p class="eyebrow">Your tech's next chapter starts here</p><h2>We'll make the<br /><span>hard part easy.</span></h2></div>
+        <div class="contact-cta"><p>Tell us what's on your mind. We'll help you figure out a good next step—no pressure, no weirdness.</p><button class="button button-yellow" type="button" data-open-request data-request-type="estimate">Let's get started <span aria-hidden="true">↗</span></button><span>Local care. Straight answers. Good tech karma.</span></div>
+        <span class="contact-bee" aria-hidden="true">✳</span>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <a class="brand footer-brand" href="#home"><span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 40 40" fill="none"><path d="M20 5.5c-7.8 0-14.1 6.3-14.1 14.1S12.2 33.7 20 33.7s14.1-6.3 14.1-14.1S27.8 5.5 20 5.5Z" fill="currentColor"/><path d="M12 14.2h16M10.8 19.7h18.4M12.1 25.2h15.8" stroke="#fff" stroke-width="3.4" stroke-linecap="round"/></svg></span><span>workerbee<span class="brand-dot">.</span></span></a>
+      <p>Better tech. Better next chapters.</p>
+      <div class="footer-links"><a href="#services">Services</a><a href="#business">Business</a><a href="#contact">Get in touch</a></div>
+      <span class="copyright">© <span id="current-year"></span> WorkerBee Tech Renewal</span>
+    </footer>
+
+    <dialog class="request-dialog" aria-labelledby="dialog-title">
+      <div class="dialog-shell">
+        <button class="dialog-close" type="button" aria-label="Close request form">×</button>
+        <div class="dialog-intro"><span class="dialog-bee" aria-hidden="true">✳</span><p class="eyebrow">A good next step starts here</p><h2 id="dialog-title">Tell us a little<br /><span>about your tech.</span></h2><p>Share the basics and we'll help you figure out what comes next.</p></div>
+        <form class="request-form">
+          <label>Your name<input name="name" autocomplete="name" required placeholder="Name" /></label>
+          <div class="form-row">
+            <label>Email address<input name="email" type="email" autocomplete="email" required placeholder="you@example.com" /></label>
+            <label>Phone <span class="optional-label">optional</span><input name="phone" type="tel" autocomplete="tel" inputmode="tel" placeholder="(555) 555-5555" /></label>
+          </div>
+          <label>What can we help with?
+            <select name="requestType" required>
+              <option value="">Choose a path</option><option value="estimate">Get an estimate</option><option value="sell">Sell my tech</option><option value="repair">Repair a device</option><option value="recycle">Recycle equipment</option><option value="donate">Donate equipment</option><option value="pickup">Schedule a pickup</option><option value="business">Business equipment</option>
+            </select>
+          </label>
+          <label>Tell us a little more<textarea name="details" rows="3" placeholder="What do you have? Any details help."></textarea></label>
+          <p class="form-hint">Please don't include passwords or sensitive personal information.</p>
+          <button class="button button-dark form-submit" type="submit">Prepare my request <span aria-hidden="true">↗</span></button>
+          <div class="form-feedback" role="status" aria-live="polite" hidden></div>
+        </form>
+        <div class="dialog-success" hidden>
+          <span class="success-check" aria-hidden="true">✓</span><h3>Your request is ready.</h3>
+          <p>This website preview doesn't send messages yet. Copy your request details to share them with WorkerBee when contact information is connected.</p>
+          <pre class="request-preview"></pre>
+          <button class="button button-dark copy-request" type="button">Copy request details</button>
+          <span class="copy-feedback" role="status" aria-live="polite"></span>
+        </div>
+      </div>
+    </dialog>
+    <div class="toast" role="status" aria-live="polite"></div>
+  </body>
+</html>
