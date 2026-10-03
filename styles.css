@@ -173,6 +173,22 @@ h1, h2 { font-family: var(--serif); letter-spacing: -.065em; }
 .renewal-paths { width:min(760px,100%); margin:41px auto 25px; display:flex; align-items:center; justify-content:space-between; }
 .renewal-paths>div { display:flex; align-items:center; gap:10px; }.renewal-paths>div span { color:#9b9b8d; font-size:8px; }.renewal-paths strong { font:600 13px var(--serif); }.renewal-paths>i { color:#b2ac98; font-size:16px; font-style:normal; }
 .renewal-section>p { margin:0; color:#77786d; font-size:10px; }
+.faq-section { padding:101px 7%; background:#faf9f5; }
+.faq-inner { width:min(1080px,100%); margin:0 auto; display:grid; grid-template-columns:.72fr 1.28fr; gap:11%; align-items:start; }
+.faq-intro { position:sticky; top:120px; }
+.faq-intro .eyebrow { margin-bottom:15px; }
+.faq-intro h2 { margin:0 0 16px; font:600 clamp(37px,4.2vw,51px)/1.13 var(--serif); letter-spacing:-.06em; }
+.faq-intro h2 span { color:#b38a14; }
+.faq-intro>p:not(.eyebrow) { max-width:280px; margin:0; color:#71736a; font-size:11px; line-height:1.8; }
+.faq-cta { max-width:255px; margin-top:22px; }
+.faq-list { border-top:1px solid #deddd5; }
+.faq-item { border-bottom:1px solid #deddd5; }
+.faq-item summary { min-height:65px; padding:19px 5px 18px 0; display:flex; align-items:center; justify-content:space-between; gap:18px; cursor:pointer; list-style:none; font:600 13px/1.5 var(--serif); }
+.faq-item summary::-webkit-details-marker { display:none; }
+.faq-item summary::after { content:"+"; flex:0 0 26px; width:26px; height:26px; display:grid; place-items:center; border:1px solid #dad8cf; border-radius:50%; color:#667b65; font:400 17px/1 var(--sans); transition:transform .2s,background .2s,color .2s; }
+.faq-item[open] summary::after { color:#fff; background:#49664f; border-color:#49664f; content:"−"; }
+.faq-item>p { max-width:620px; margin:0; padding:0 40px 21px 0; color:#71736a; font-size:11px; line-height:1.85; }
+.faq-item summary:focus-visible { outline:2px solid #a78623; outline-offset:3px; }
 .contact-section { min-height:350px; position:relative; padding:75px 13%; display:flex; justify-content:space-between; align-items:center; gap:50px; overflow:hidden; background:#faf9f5; }
 .contact-section .eyebrow { margin-bottom:16px; }.contact-section h2 { font-size:clamp(40px,4.7vw,58px); }
 .contact-cta { position:relative; z-index:1; max-width:340px; }.contact-cta p { margin-bottom:20px; color:#6d7067; font-size:11px; line-height:1.8; }.contact-cta>span { display:block; margin-top:15px; color:#8c8d82; font-size:9px; }
@@ -205,6 +221,7 @@ h1, h2 { font-family: var(--serif); letter-spacing: -.065em; }
   .marketplace-section { padding:73px 0 84px; }.marketplace-inner { grid-template-columns:1fr; gap:30px; }.marketplace-copy h2 { font-size:40px; }.marketplace-grid { min-height:340px; }.gear-photo { height:165px; }.gear-card-small .gear-photo { height:135px; }.gear-info { align-items:start; flex-direction:column; gap:8px; }.marketplace-stamp { right:-18px; top:4px; width:79px; height:79px; }
   .pickup-section { grid-template-columns:1fr; }.pickup-visual { min-height:350px; }.pickup-copy { max-width:none; padding:56px 8% 68px; }.pickup-copy h2 { max-width:450px; }.business-section { min-height:530px; padding:70px 8%; align-items:flex-start; }.business-content { max-width:100%; }.business-content h2 { font-size:38px; }.business-content>p:not(.eyebrow) { max-width:430px; }.business-card { width:145px; height:184px; top:auto; right:9%; bottom:24px; padding:14px; transform:rotate(5deg); }.doc-label { font-size:5px; }.doc-icon { width:30px; height:30px; margin:12px 0 8px; font-size:16px; }.business-card>strong { font-size:13px; }.doc-lines { margin-top:14px; }.doc-lines i { margin-top:6px; }.doc-foot { margin-top:10px; font-size:5px; }.business-orbit { bottom:-280px; }
   .renewal-section { padding:74px 6%; }.renewal-heading h2 { font-size:34px; }.renewal-paths { gap:7px; margin:31px auto 22px; }.renewal-paths>div { flex-direction:column; gap:5px; }.renewal-paths strong { font-size:10px; }.renewal-paths>i { font-size:12px; }.renewal-section>p { font-size:9px; line-height:1.6; }
+  .faq-section { padding:72px 8%; }.faq-inner { grid-template-columns:1fr; gap:27px; }.faq-intro { position:static; }.faq-intro h2 { font-size:39px; }.faq-cta { margin-top:15px; }.faq-item summary { min-height:62px; font-size:12px; }.faq-item>p { font-size:10px; padding-right:8px; }
   .contact-section { min-height:0; padding:68px 8%; flex-direction:column; align-items:flex-start; gap:23px; }.contact-section h2 { font-size:45px; }.contact-cta { max-width:390px; }.contact-bee { top:auto; bottom:-92px; font-size:200px; }.site-footer { padding:28px 7%; flex-wrap:wrap; gap:14px 25px; }.site-footer>p { order:3; width:100%; }.footer-links { margin-left:auto; gap:14px; }.copyright { width:100%; }.request-dialog { max-height:92vh; }.dialog-shell { padding:38px 24px 28px; }
 }
 @media (max-width: 390px) {
